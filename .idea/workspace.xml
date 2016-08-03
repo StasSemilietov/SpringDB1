@@ -840,7 +840,7 @@
       <updated>1469917068969</updated>
       <workItem from="1469917070103" duration="1887000" />
       <workItem from="1469968021067" duration="4049000" />
-      <workItem from="1470219457617" duration="5350000" />
+      <workItem from="1470219457617" duration="5358000" />
     </task>
     <task id="LOCAL-00001" summary="REFACTOR">
       <created>1470229938209</created>
@@ -856,11 +856,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470232488362</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="insert to table with FK">
+      <created>1470232506731</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1470232506731</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11286000" />
+    <option name="totallyTimeSpent" value="11294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1180" extended-state="0" />
