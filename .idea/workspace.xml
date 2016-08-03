@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cfe77c2-d518-457f-bfeb-601c45fb8503" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/red/aop/objects/Author.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/sqLitedb1.db" afterPath="$PROJECT_DIR$/db/sqLitedb1.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_4_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_4_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_2_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_2_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_2_2_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_2_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_2_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_2_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_2_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_6_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_6_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_7_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_7_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/red/aop/implementation/SQLiteDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/red/aop/implementation/SQLiteDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/red/aop/interfaces/MP3Dao.java" afterPath="$PROJECT_DIR$/src/main/java/com/red/aop/interfaces/MP3Dao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/red/aop/main/Start.java" afterPath="$PROJECT_DIR$/src/main/java/com/red/aop/main/Start.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/red/aop/objects/Mp3.java" afterPath="$PROJECT_DIR$/src/main/java/com/red/aop/objects/Mp3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/red/aop/postprocessor/MyBeanPostProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/com/red/aop/postprocessor/MyBeanPostProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/context.xml" afterPath="$PROJECT_DIR$/src/main/resources/context.xml" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,23 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MP3Dao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/red/aop/interfaces/MP3Dao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Mp3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/red/aop/objects/Mp3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="459">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="e#189#190#0" expanded="true" />
                 <element signature="e#214#215#0" expanded="true" />
@@ -80,7 +47,6 @@
                 <element signature="e#333#334#0" expanded="true" />
                 <element signature="e#373#374#0" expanded="true" />
                 <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
                 <element signature="e#467#468#0" expanded="true" />
                 <element signature="e#511#512#0" expanded="true" />
                 <element signature="e#547#548#0" expanded="true" />
@@ -92,38 +58,22 @@
       <file leaf-file-name="SQLiteDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/red/aop/implementation/SQLiteDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="156" column="20" selection-start-line="156" selection-start-column="20" selection-end-line="156" selection-end-column="20" />
+            <state relative-caret-position="279">
+              <caret line="47" column="55" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
               <folding>
-                <element signature="e#2635#3101#0" expanded="true" />
-                <element signature="e#3100#3101#0" expanded="true" />
-                <element signature="e#3412#3413#0" expanded="true" />
-                <element signature="e#3447#3448#0" expanded="true" />
-                <marker date="1470229697327" expanded="true" signature="1803:1857" ph="insert into mp3... " />
-                <marker date="1470229697327" expanded="true" signature="3181:3209" ph="delete from " />
-                <marker date="1470229697327" expanded="true" signature="3522:3572" ph="select * fro... mp3_view" />
-                <marker date="1470229697327" expanded="true" signature="3860:3926" ph="select * fro... mp3_view" />
-                <marker date="1470229697327" expanded="true" signature="4239:4311" ph="select * fro... mp3_view" />
-                <marker date="1470229697327" expanded="true" signature="4600:4621" ph="select count... mp3" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Author.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/red/aop/objects/Author.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#3425#3891#0" expanded="true" />
+                <element signature="e#3890#3891#0" expanded="true" />
+                <element signature="e#4202#4203#0" expanded="true" />
+                <element signature="e#4237#4238#0" expanded="true" />
+                <marker date="1470232396543" expanded="true" signature="1645:1691" ph="INSERT INTO author... " />
+                <marker date="1470232396543" expanded="true" signature="2066:2098" ph="INSERT INTO mp3... " />
+                <marker date="1470232396543" expanded="true" signature="2066:2126" ph="INSERT INTO mp3... " />
+                <marker date="1470232396543" expanded="true" signature="2424:2478" ph="insert into mp3... " />
+                <marker date="1470232396543" expanded="true" signature="3971:3999" ph="delete from " />
+                <marker date="1470232396543" expanded="true" signature="4312:4362" ph="select * fro... mp3_view" />
+                <marker date="1470232396543" expanded="true" signature="4650:4716" ph="select * fro... mp3_view" />
+                <marker date="1470232396543" expanded="true" signature="5029:5101" ph="select * fro... mp3_view" />
+                <marker date="1470232396543" expanded="true" signature="5390:5411" ph="select count... mp3" />
               </folding>
             </state>
           </provider>
@@ -132,18 +82,8 @@
       <file leaf-file-name="Start.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/red/aop/main/Start.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="context.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/context.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state relative-caret-position="544">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -173,9 +113,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/red/aop/postprocessor/MyBeanPostProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/red/aop/interfaces/MP3Dao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/red/aop/objects/Author.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/red/aop/implementation/SQLiteDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/red/aop/objects/Mp3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/red/aop/exception/MyException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/red/aop/exception/SQLiteExceptionsTranslator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/red/aop/main/Start.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/red/aop/implementation/SQLiteDAO.java" />
       </list>
     </option>
   </component>
@@ -415,6 +357,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="implementation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringDB2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringDB2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exception" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -873,12 +845,20 @@
       <updated>1469917068969</updated>
       <workItem from="1469917070103" duration="1887000" />
       <workItem from="1469968021067" duration="4049000" />
-      <workItem from="1470219457617" duration="3134000" />
+      <workItem from="1470219457617" duration="5304000" />
     </task>
+    <task id="LOCAL-00001" summary="REFACTOR">
+      <created>1470229938209</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1470229938209</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9070000" />
+    <option name="totallyTimeSpent" value="11240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1180" extended-state="0" />
@@ -886,25 +866,25 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32925683" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987747" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32925683" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32987747" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987747" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987747" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32987747" sideWeight="0.4978701" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925683" sideWeight="0.49574015" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987747" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925683" sideWeight="0.49574015" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.399623" sideWeight="0.4978701" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -925,10 +905,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="REFACTOR" />
+    <option name="LAST_COMMIT_MESSAGE" value="REFACTOR" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -951,16 +934,19 @@
         <state relative-caret-position="136">
           <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
-            <element signature="e#2635#3101#0" expanded="true" />
-            <element signature="e#3100#3101#0" expanded="true" />
-            <element signature="e#3412#3413#0" expanded="true" />
-            <element signature="e#3447#3448#0" expanded="true" />
-            <marker date="1470229697327" expanded="true" signature="1803:1857" ph="insert into mp3... " />
-            <marker date="1470229697327" expanded="true" signature="3181:3209" ph="delete from " />
-            <marker date="1470229697327" expanded="true" signature="3522:3572" ph="select * fro... mp3_view" />
-            <marker date="1470229697327" expanded="true" signature="3860:3926" ph="select * fro... mp3_view" />
-            <marker date="1470229697327" expanded="true" signature="4239:4311" ph="select * fro... mp3_view" />
-            <marker date="1470229697327" expanded="true" signature="4600:4621" ph="select count... mp3" />
+            <element signature="e#3425#3891#0" expanded="true" />
+            <element signature="e#3890#3891#0" expanded="true" />
+            <element signature="e#4202#4203#0" expanded="true" />
+            <element signature="e#4237#4238#0" expanded="true" />
+            <marker date="1470232396543" expanded="true" signature="1645:1691" ph="INSERT INTO author... " />
+            <marker date="1470232396543" expanded="true" signature="2066:2098" ph="INSERT INTO mp3... " />
+            <marker date="1470232396543" expanded="true" signature="2066:2126" ph="INSERT INTO mp3... " />
+            <marker date="1470232396543" expanded="true" signature="2424:2478" ph="insert into mp3... " />
+            <marker date="1470232396543" expanded="true" signature="3971:3999" ph="delete from " />
+            <marker date="1470232396543" expanded="true" signature="4312:4362" ph="select * fro... mp3_view" />
+            <marker date="1470232396543" expanded="true" signature="4650:4716" ph="select * fro... mp3_view" />
+            <marker date="1470232396543" expanded="true" signature="5029:5101" ph="select * fro... mp3_view" />
+            <marker date="1470232396543" expanded="true" signature="5390:5411" ph="select count... mp3" />
           </folding>
         </state>
       </provider>
@@ -996,16 +982,19 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2635#3101#0" expanded="true" />
-            <element signature="e#3100#3101#0" expanded="true" />
-            <element signature="e#3412#3413#0" expanded="true" />
-            <element signature="e#3447#3448#0" expanded="true" />
-            <marker date="1470229697327" expanded="true" signature="1803:1857" ph="insert into mp3... " />
-            <marker date="1470229697327" expanded="true" signature="3181:3209" ph="delete from " />
-            <marker date="1470229697327" expanded="true" signature="3522:3572" ph="select * fro... mp3_view" />
-            <marker date="1470229697327" expanded="true" signature="3860:3926" ph="select * fro... mp3_view" />
-            <marker date="1470229697327" expanded="true" signature="4239:4311" ph="select * fro... mp3_view" />
-            <marker date="1470229697327" expanded="true" signature="4600:4621" ph="select count... mp3" />
+            <element signature="e#3425#3891#0" expanded="true" />
+            <element signature="e#3890#3891#0" expanded="true" />
+            <element signature="e#4202#4203#0" expanded="true" />
+            <element signature="e#4237#4238#0" expanded="true" />
+            <marker date="1470232396543" expanded="true" signature="1645:1691" ph="INSERT INTO author... " />
+            <marker date="1470232396543" expanded="true" signature="2066:2098" ph="INSERT INTO mp3... " />
+            <marker date="1470232396543" expanded="true" signature="2066:2126" ph="INSERT INTO mp3... " />
+            <marker date="1470232396543" expanded="true" signature="2424:2478" ph="insert into mp3... " />
+            <marker date="1470232396543" expanded="true" signature="3971:3999" ph="delete from " />
+            <marker date="1470232396543" expanded="true" signature="4312:4362" ph="select * fro... mp3_view" />
+            <marker date="1470232396543" expanded="true" signature="4650:4716" ph="select * fro... mp3_view" />
+            <marker date="1470232396543" expanded="true" signature="5029:5101" ph="select * fro... mp3_view" />
+            <marker date="1470232396543" expanded="true" signature="5390:5411" ph="select count... mp3" />
           </folding>
         </state>
       </provider>
@@ -1114,42 +1103,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/red/aop/implementation/SQLiteDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/red/aop/exception/MyException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="156" column="20" selection-start-line="156" selection-start-column="20" selection-end-line="156" selection-end-column="20" />
-          <folding>
-            <element signature="e#2635#3101#0" expanded="true" />
-            <element signature="e#3100#3101#0" expanded="true" />
-            <element signature="e#3412#3413#0" expanded="true" />
-            <element signature="e#3447#3448#0" expanded="true" />
-            <marker date="1470229697327" expanded="true" signature="1803:1857" ph="insert into mp3... " />
-            <marker date="1470229697327" expanded="true" signature="3181:3209" ph="delete from " />
-            <marker date="1470229697327" expanded="true" signature="3522:3572" ph="select * fro... mp3_view" />
-            <marker date="1470229697327" expanded="true" signature="3860:3926" ph="select * fro... mp3_view" />
-            <marker date="1470229697327" expanded="true" signature="4239:4311" ph="select * fro... mp3_view" />
-            <marker date="1470229697327" expanded="true" signature="4600:4621" ph="select count... mp3" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/red/aop/objects/Mp3.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/red/aop/exception/SQLiteExceptionsTranslator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="13" column="81" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
           <folding>
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1171,10 +1138,124 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/red/aop/objects/Mp3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.1.6.RELEASE/spring-jdbc-4.1.6.RELEASE.jar!/org/springframework/jdbc/core/namedparam/AbstractSqlParameterSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.1.6.RELEASE/spring-jdbc-4.1.6.RELEASE.jar!/org/springframework/jdbc/core/namedparam/MapSqlParameterSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.1.6.RELEASE/spring-jdbc-4.1.6.RELEASE.jar!/org/springframework/jdbc/support/GeneratedKeyHolder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#572#573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.2.RELEASE/spring-core-4.3.2.RELEASE.jar!/org/springframework/util/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_74/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.1.6.RELEASE/spring-jdbc-4.1.6.RELEASE.jar!/org/springframework/jdbc/core/namedparam/ParsedSql.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.1.6.RELEASE/spring-jdbc-4.1.6.RELEASE.jar!/org/springframework/jdbc/core/namedparam/NamedParameterUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.1.6.RELEASE/spring-jdbc-4.1.6.RELEASE.jar!/org/springframework/jdbc/core/namedparam/NamedParameterJdbcTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="255" column="0" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
+          <folding>
+            <element signature="e#2841#2842#0" expanded="true" />
+            <element signature="e#2879#2880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/red/aop/implementation/SQLiteDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="47" column="55" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
+          <folding>
+            <element signature="e#3425#3891#0" expanded="true" />
+            <element signature="e#3890#3891#0" expanded="true" />
+            <element signature="e#4202#4203#0" expanded="true" />
+            <element signature="e#4237#4238#0" expanded="true" />
+            <marker date="1470232396543" expanded="true" signature="1645:1691" ph="INSERT INTO author... " />
+            <marker date="1470232396543" expanded="true" signature="2066:2098" ph="INSERT INTO mp3... " />
+            <marker date="1470232396543" expanded="true" signature="2066:2126" ph="INSERT INTO mp3... " />
+            <marker date="1470232396543" expanded="true" signature="2424:2478" ph="insert into mp3... " />
+            <marker date="1470232396543" expanded="true" signature="3971:3999" ph="delete from " />
+            <marker date="1470232396543" expanded="true" signature="4312:4362" ph="select * fro... mp3_view" />
+            <marker date="1470232396543" expanded="true" signature="4650:4716" ph="select * fro... mp3_view" />
+            <marker date="1470232396543" expanded="true" signature="5029:5101" ph="select * fro... mp3_view" />
+            <marker date="1470232396543" expanded="true" signature="5390:5411" ph="select count... mp3" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/red/aop/main/Start.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        <state relative-caret-position="544">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
