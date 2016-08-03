@@ -11,7 +11,6 @@ import org.springframework.stereotype.Component;
 public class MyBeanPostProcessor implements BeanPostProcessor {
     @Override
     public Object postProcessBeforeInitialization(Object o, String s) throws BeansException {
-        System.out.println(o + " ---   postProcessBeforeInitialization");
         return o;
     }
     @Override

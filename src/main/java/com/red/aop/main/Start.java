@@ -5,20 +5,30 @@ import com.red.aop.objects.Mp3;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by Steven on 30.07.2016.
  */
 public class Start {
     public static void main(String[] args) {
-        Mp3 mp3 = new Mp3();
-        mp3.setName("New Song");
-        mp3.setAuthor("Steven O'Connel");
-
-
-        ApplicationContext context = new ClassPathXmlApplicationContext("context.xml");
-        SQLiteDAO sqLiteDao = (SQLiteDAO) context.getBean("sqliteDao");
-
-        System.out.println(sqLiteDao.getStatistic());
+//        Mp3 first = new Mp3();
+//        first.setName("New Song");
+//        first.setAuthor("Steven O'Connel");
+//
+//        Mp3 second = new Mp3();
+//        second.setName("New second Song");
+//        second.setAuthor("Unknown");
+//
+//        List<Mp3> list = new ArrayList<>();
+//        list.add(first);
+//        list.add(second);
+//
+//        ApplicationContext context = new ClassPathXmlApplicationContext("context.xml");
+//        SQLiteDAO sqLiteDao = (SQLiteDAO) context.getBean("sqliteDao");
+//
+//        System.out.println(sqLiteDao.batchInsert(list));
 
 
     }
