@@ -15,6 +15,10 @@ import org.springframework.jdbc.core.simple.SimpleJdbcInsert;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.transaction.support.TransactionSynchronizationManager;
 
 import javax.sql.DataSource;
 import java.sql.*;
@@ -24,6 +28,7 @@ import java.util.TreeMap;
 
 /**
  * Created by Steven on 30.07.2016.
+ * http://www.ibm.com/developerworks/ru/library/j-ts1/
  */
 @Component("sqliteDao")
 public class SQLiteDAO implements MP3Dao {
@@ -41,24 +46,48 @@ public class SQLiteDAO implements MP3Dao {
     }
 
     @Override
-    public int insert(Mp3 mp3) {
-        String sqlInsertAuthor = "INSERT INTO author (name) VALUES (:authorName)" ;
-        Author author = mp3.getAuthor();
+    @Transactional(propagation = Propagation.REQUIRED, isolation = Isolation.SERIALIZABLE, timeout = 1)
+    public int insertMP3(Mp3 mp3) {
+
+        System.out.println(TransactionSynchronizationManager.isActualTransactionActive());
+
+        int author_id = insertAuthor(mp3.getAuthor());
+
+        String sqlInsertMP3 = "insert into mp3 (author_id, name) VALUES (:authorId, :mp3Name)";
+
         MapSqlParameterSource params = new MapSqlParameterSource();
-        params.addValue("authorName",author.getName());
 
-        KeyHolder keyHolder = new GeneratedKeyHolder();
-        jdbcTemplate.update(sqlInsertAuthor,params,keyHolder);
-        int authorID = keyHolder.getKey().intValue();
-
-        String sqlInsertMP3 = "INSERT INTO mp3 (author_id,name) VALUES (:authorID,:mp3Name)";
         params = new MapSqlParameterSource();
         params.addValue("mp3Name", mp3.getName());
-        params.addValue("authorID", authorID);
+        params.addValue("authorId", author_id);
 
-        return jdbcTemplate.update(sqlInsertMP3,params);
+        return jdbcTemplate.update(sqlInsertMP3, params);
 
     }
+
+    @Override
+    @Transactional(propagation = Propagation.REQUIRED, isolation = Isolation.SERIALIZABLE)
+    public int insertAuthor(Author author) {
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println(TransactionSynchronizationManager.isActualTransactionActive());
+
+        String sqlInsertAuthor = "insert into author (name) VALUES (:authorName)";
+
+        MapSqlParameterSource params = new MapSqlParameterSource();
+        params.addValue("authorName", author.getName());
+
+        KeyHolder keyHolder = new GeneratedKeyHolder();
+
+        jdbcTemplate.update(sqlInsertAuthor, params, keyHolder);
+
+        return keyHolder.getKey().intValue();
+
+    }
+
 
     @Override
     public int insertList(List<Mp3> listMP3) {
@@ -83,7 +112,7 @@ public class SQLiteDAO implements MP3Dao {
 //        return updateCounts.length;
         int count = 0;
         for(Mp3 mp3 : listMP3){
-            insert(mp3);
+            insertMP3(mp3);
             count++;
         }
         return count;

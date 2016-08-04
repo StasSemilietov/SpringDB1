@@ -1,6 +1,7 @@
 package com.red.aop.interfaces;
 
 
+import com.red.aop.objects.Author;
 import com.red.aop.objects.Mp3;
 
 import java.util.List;
@@ -11,7 +12,8 @@ import java.util.Map;
  */
 public interface MP3Dao {
 
-    int insert(Mp3 mp3);
+    int insertMP3(Mp3 mp3);
+    int insertAuthor(Author author);
 
     int insertList(List<Mp3> mp3List);
 
